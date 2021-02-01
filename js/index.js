@@ -14,6 +14,7 @@ const WAITING_TIME = 100;
 const unsortedBlock = 'turquoise';
 const sortedBlock = 'mediumspringgreen';
 const comparisonBlock = 'crimson';
+const selectedBlock = 'yellow';
 
 var size;
 var delay;
@@ -146,6 +147,8 @@ $(document).ready(function() {
             setColorRange(0, size - 1, unsortedBlock);
             if(algo_selected == "Bubble Sort")
                 await bubbleSort();
+            else if(algo_selected == "Insertion Sort")
+                await insertionSort();
             else {
                 $("#warning").removeClass('display-none');
                 $("#warning").addClass('display-flex');
