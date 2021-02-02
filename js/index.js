@@ -151,6 +151,8 @@ $(document).ready(function() {
                 await bubbleSort();
             else if(algo_selected == "Insertion Sort")
                 await insertionSort();
+            else if(algo_selected == "Selection Sort")
+                await selectionSort();
             else if(algo_selected == "Merge Sort")
                 await mergeSort(0, size - 1);
             else {
