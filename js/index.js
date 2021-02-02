@@ -15,6 +15,8 @@ const unsortedBlock = 'turquoise';
 const sortedBlock = 'mediumspringgreen';
 const comparisonBlock = 'crimson';
 const selectedBlock = 'yellow';
+const leftBlock = 'orangered';
+const rightBlock = 'gold';
 
 var size;
 var delay;
@@ -149,6 +151,8 @@ $(document).ready(function() {
                 await bubbleSort();
             else if(algo_selected == "Insertion Sort")
                 await insertionSort();
+            else if(algo_selected == "Merge Sort")
+                await mergeSort(0, size - 1);
             else {
                 $("#warning").removeClass('display-none');
                 $("#warning").addClass('display-flex');
