@@ -155,6 +155,8 @@ $(document).ready(function() {
                 await selectionSort();
             else if(algo_selected == "Merge Sort")
                 await mergeSort(0, size - 1);
+            else if(algo_selected == "Merge Sort")
+                await quickSort(0, size - 1);
             else {
                 $("#warning").removeClass('display-none');
                 $("#warning").addClass('display-flex');
