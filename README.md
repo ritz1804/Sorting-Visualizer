@@ -1,6 +1,11 @@
 <p align="center">
   This is a web app built using JS and is used to visualize classic sorting algorithms such as bubble sort, insertion sort, quick sort, merge sort and selection sort.
 </p>
+
+<p align="center">
+  The website is live at: https://ritz1804.github.io/Sorting-Visualizer/
+</p>
+
 <p align="center">
 Show some love 💜 and Star ⭐️ the Repository to support the project.
 </p>
